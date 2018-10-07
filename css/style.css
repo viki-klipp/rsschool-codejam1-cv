@@ -1,10 +1,11 @@
-body {
+html, body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 300;
 
   background-color: #ffffff;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -116,7 +117,7 @@ main {
 }
 
 .greeting .contact {
-  margin-top: 150px;
+  margin-top: 130px;
   margin-bottom: 30px;
 }
 
