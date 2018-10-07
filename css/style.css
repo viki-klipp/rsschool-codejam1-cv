@@ -123,3 +123,62 @@ main {
 .greeting a:hover img {
   opacity: 0.5;
 }
+
+.skills {
+  margin-top: 100px;
+  border: 1px solid #0984e3;
+}
+
+.skills-wrapper {
+  margin: 5px;
+  border: 10px solid #0984e3;
+}
+
+.skills h2 {
+  font-size: 38px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.skills .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills .container ul {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  list-style: none;
+}
+
+.skills-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.skills-item::after {
+  content: "";
+  width: 348px;
+  height: 10px;
+  top: 40px;
+  position: absolute;
+}
+
+.skills-item:nth-child(1)::after {
+  background-image: url("../img/bar-50.png");
+}
+
+.skills-item:nth-child(2)::after {
+  background-image: url("../img/bar-70.png");
+}
+
+.skills-item:nth-child(3)::after {
+  background-image: url("../img/bar-40.png");
+}
+
+.skills-item:nth-child(4)::after {
+  background-image: url("../img/bar-30.png");
+}
