@@ -134,7 +134,7 @@ main {
   border: 10px solid #0984e3;
 }
 
-.skills h2 {
+ h2 {
   font-size: 38px;
   line-height: 38px;
   text-align: center;
@@ -181,4 +181,28 @@ main {
 
 .skills-item:nth-child(4)::after {
   background-image: url("../img/bar-30.png");
+}
+
+.education {
+  margin-top: 50px;
+}
+
+.education ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 800px;
+  list-style: none;
+}
+
+.education-item {
+  border-bottom: 1px solid #0984e3;
+}
+
+.education-item h3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-item h3 span{
+  font-weight: 300;
 }
