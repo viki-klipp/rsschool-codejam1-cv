@@ -226,3 +226,31 @@ main {
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
+.work {
+  margin-top: 50px;
+}
+
+.work ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 800px;
+  list-style: none;
+}
+
+.work-item {
+  border-bottom: 1px solid #0984e3;
+}
+
+.work-item:last-child {
+  border-bottom: 0;
+}
+
+.work-item h3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-item h3 span{
+  font-weight: 300;
+}
