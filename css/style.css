@@ -66,3 +66,60 @@ header nav {
 .main-nav a:active {
   opacity: 0.3;
 }
+
+main {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.greeting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting-avatar {
+  margin-top: 95px;
+  margin-left: 85px;
+}
+
+.greeting-avatar img{
+  border: 1px solid #0984e3;
+  box-shadow: -20px 20px 0 0 #0984e3;
+}
+
+.greeting-description {
+  margin-top: 95px;
+  margin-right: 140px;
+}
+
+.greeting .label {
+  width: 100px;
+  padding: 5px 10px;
+  margin-top: 0;
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #0984e3;
+}
+
+.greeting .fio {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.greeting .fio span {
+  font-weight: 700;
+}
+
+.greeting .contact {
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.greeting a:hover img {
+  opacity: 0.5;
+}
