@@ -198,6 +198,10 @@ main {
   border-bottom: 1px solid #0984e3;
 }
 
+.education-item:last-child {
+  border-bottom: 0;
+}
+
 .education-item h3{
   display: flex;
   justify-content: space-between;
@@ -205,4 +209,20 @@ main {
 
 .education-item h3 span{
   font-weight: 300;
+}
+
+.about {
+  margin-top: 50px;
+  border: 1px solid #0984e3;
+}
+
+.about-wrapper {
+  margin: 5px;
+  border: 10px solid #0984e3;
+}
+
+.about p {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
