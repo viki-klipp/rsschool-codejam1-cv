@@ -1,0 +1,302 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+
+  background-color: #0984e3;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding-bottom: 5px;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  opacity: 0.6;
+}
+
+.logo a:active {
+  opacity: 0.3;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  display: block;
+  padding: 20px;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  background-color: #086db9;
+}
+
+.main-nav a:active {
+  opacity: 0.3;
+}
+
+main {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.greeting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting-avatar {
+  margin-top: 95px;
+  margin-left: 85px;
+}
+
+.greeting-avatar img{
+  border: 1px solid #0984e3;
+  box-shadow: -20px 20px 0 0 #0984e3;
+}
+
+.greeting-description {
+  margin-top: 95px;
+  margin-right: 140px;
+}
+
+.greeting .label {
+  width: 100px;
+  padding: 5px 10px;
+  margin-top: 0;
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #0984e3;
+}
+
+.greeting .fio {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.greeting .fio span {
+  font-weight: 700;
+}
+
+.greeting .contact {
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.greeting a:hover img {
+  opacity: 0.5;
+}
+
+.skills {
+  margin-top: 100px;
+  border: 1px solid #0984e3;
+}
+
+.skills-wrapper {
+  margin: 5px;
+  border: 10px solid #0984e3;
+}
+
+ h2 {
+  font-size: 38px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.skills .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills .container ul {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  list-style: none;
+}
+
+.skills-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.skills-item::after {
+  content: "";
+  width: 348px;
+  height: 10px;
+  top: 40px;
+  position: absolute;
+}
+
+.skills-item:nth-child(1)::after {
+  background-image: url("../img/bar-50.png");
+}
+
+.skills-item:nth-child(2)::after {
+  background-image: url("../img/bar-70.png");
+}
+
+.skills-item:nth-child(3)::after {
+  background-image: url("../img/bar-40.png");
+}
+
+.skills-item:nth-child(4)::after {
+  background-image: url("../img/bar-30.png");
+}
+
+.education {
+  margin-top: 50px;
+}
+
+.education ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 800px;
+  list-style: none;
+}
+
+.education-item {
+  border-bottom: 1px solid #0984e3;
+}
+
+.education-item:last-child {
+  border-bottom: 0;
+}
+
+.education-item h3{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-item h3 span{
+  font-weight: 300;
+}
+
+.about {
+  margin-top: 50px;
+  border: 1px solid #0984e3;
+}
+
+.about-wrapper {
+  margin: 5px;
+  border: 10px solid #0984e3;
+}
+
+.about p {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.work {
+  margin-top: 50px;
+}
+
+.work ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 800px;
+  list-style: none;
+}
+
+.work-item {
+  border-bottom: 1px solid #0984e3;
+}
+
+.work-item:last-child {
+  border-bottom: 0;
+}
+
+.work-item h3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-item h3 span{
+  font-weight: 300;
+}
+
+.education small {
+  display: block;
+  position: absolute;
+  left: -100px;
+
+  width: 80px;
+  padding: 2px;
+
+  text-align: center;
+  font-weight: 400;
+  color: #0984e3;
+
+  background-color: #ffffff;
+  border: 1px solid #0984e3;
+}
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 100px;
+  background-color: #0984e3;
+}
+
+footer .wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+footer p {
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 45px;
+  color: #ffffff;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer p a:hover {
+  opacity: 0.7;
+}
